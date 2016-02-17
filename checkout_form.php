@@ -1,5 +1,11 @@
 <?php 
 
+<form action= "cart_process.php">
+	<text type="">
+	
+
+
+</form>
 session_start();
 echo session_id ();
 

@@ -1,13 +1,15 @@
-Insert into products (category_id, product_name, price, quantity_remaining, description, image)
-Values (1, necklace, $23, 5, silver beaded charm, “ ”) 
-Insert into products (category_id, product_name, price, quantity_ remaining, description, image)
-Values (2, ring, $56, 2, sterling silver sparkle ring, “ ”)
-Insert into products (category_id, product_name, price, quantity_ remaining, description, image)
-Values (3, television, $160, 10, 32 inch hd flatscreen, “ ”)  
-Insert into products (category_id, product_name, price, quantity_ remaining, description, image)
-Values (4, laptop, $708, 15, touchscreen fast processing clear screen, “ ”) 
+INSERT INTO products (category_id, product_name, price, quantity_remaining, description, image)
+VALUES (1, 'necklace', '23.00', 5, 'silver beaded charm', 'necklace.jpg') 
+INSERT INTO products (category_id, product_name, price, quantity_remaining, description, image)
+VALUES (2, 'ring', '56.00', 2, 'sterling silver sparkle ring', 'ring.jpg')
+INSERT INTO products (category_id, product_name, price, quantity_remaining, description, image)
+VALUES (3, 'television', '160.00', 10, '32 inch hd flatscreen', 'television.jpg')  
+INSERT INTO products (category_id, product_name, price, quantity_remaining, description, image)
+VALUES (4, 'laptop', '708.00', 15, 'touchscreen fast processing clear screen', 'laptop.jpg') 
 
-Insert into categories (id, catergory_name )
-Values (1, jewelry)
-Insert into categories (id, catergory_name )
-Values (2, electronics)
+	
+	 
+
+
+INSERT INTO categories (category_name) VALUES('jewelry')
+INSERT INTO categories (category_name) VALUES('electronics')

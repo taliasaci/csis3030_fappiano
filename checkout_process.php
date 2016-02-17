@@ -22,8 +22,8 @@ if (mysqli_num_rows($result) !=0) {
 	mysqli_query($connection, "update cart set quantity = $quantity where session_id = '$session_id' and product_id = $product_id")
 
 }else{
-	mysqli_query($connection, "insert into cart (session_id, product_id, quantity) values ")
+	mysqli_query($connection, "insert into cart (session_id, product_id, quantity) values ('$session_id', $product_id, $quantity)")
 }
 
-
+if ($_POST[""])
 ?>
