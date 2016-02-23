@@ -25,5 +25,10 @@ if (mysqli_num_rows($result) !=0) {
 	mysqli_query($connection, "insert into cart (session_id, product_id, quantity) values ('$session_id', $product_id, $quantity)")
 }
 
-if ($_POST[""])
+if ($_POST[""]);
+	
+	jwu_mail("tfappiano01@wildcats.jwu.edu","My Subject", "My Message" ); 
+	include ("jwu_mail.php");
+
+
 ?>

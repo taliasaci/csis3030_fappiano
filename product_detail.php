@@ -5,9 +5,10 @@ echo session_id ();
 
 $res = mysqli_query($connection, "select * from cart where session_id = '" . session_id() . "'");
 
+<form method="POST"> 
+<input type="text" name="product_1" size="3">
 
-
-
+</form>
  
 if ($SESSION["id"] ==""){
 
