@@ -1,10 +1,8 @@
 <?php 
 
 <form action= "cart_process.php">
-	<text type="">
-	
-
-
+	<input type="text" name="name"><br/>
+	<input type="submit" value="Retrieve">
 </form>
 session_start();
 echo session_id ();

@@ -16,9 +16,6 @@
       <div id="links">
         <ul>
           <li><a href="index.php">Home</a></li>
-          <li><a href="contact.php">Contact</a></li>
-          <li><a href="party_form.php">Your Party</a></li>
-          <li><a href="party_list.php">Party List</a></li>
           
         </ul>
       </div>
